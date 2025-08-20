@@ -1,6 +1,6 @@
 tasks:
     runEchoCommand:
-        name: Runs unit tests
+        name: Runs pwd command
         triggeredBy:
             - postDevcontainerStart
         command: echo '[MAIN] Container working_dir:' >> /workspaces/container.log && pwd >> /workspaces/container.log
