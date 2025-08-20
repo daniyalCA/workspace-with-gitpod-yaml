@@ -1,7 +1,1 @@
 image: ubuntu:latest
-# List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
-tasks:
-  - name: echo post-start directory
-    command: echo '[MAIN] Container working_dir:' >> /workspaces/container.log
-  - name: pwd command
-    command: pwd >> /workspaces/container.log
