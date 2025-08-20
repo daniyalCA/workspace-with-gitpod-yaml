@@ -3,3 +3,5 @@ image: ubuntu:latest
 tasks:
   - name: echo post-start directory
     command: echo '[MAIN] Container working_dir:' >> /workspaces/container.log
+  - name: pwd command
+    command: pwd >> /workspaces/container.log
