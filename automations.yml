@@ -1,4 +1,0 @@
-tasks:
-    runEchoCommand:
-        name: Runs unit tests
-        command: echo '[MAIN] Container working_dir:' >> /workspaces/container.log && pwd >> /workspaces/container.log
